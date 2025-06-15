@@ -1,0 +1,12 @@
+[
+  {
+    "name": "stream1",
+    "yt_url": "https://www.youtube.com/watch?v=XXXXXX",
+    "rtmp_out": "rtmp://your-server/live/stream1"
+  },
+  {
+    "name": "stream2",
+    "yt_url": "https://www.youtube.com/watch?v=YYYYYY",
+    "rtmp_out": "rtmp://your-server/live/stream2"
+  }
+]
