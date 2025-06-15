@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  yt-restreamer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: yt-restreamer
+    restart: unless-stopped
+    volumes:
+      - yt_logs:/app/logs
+    environment:
+      - TZ=Europe/Zurich
+
+volumes:
+  yt_logs:
